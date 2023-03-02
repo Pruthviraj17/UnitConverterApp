@@ -25,8 +25,6 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//                Toast toast=Toast.makeText(MainActivity.this, "This is Button", Toast.LENGTH_SHORT);
-//                toast.show();
                 String s=editText.getText().toString();
                 int kg=Integer.parseInt(s);
                 if(kg>=500000000)
